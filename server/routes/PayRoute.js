@@ -79,8 +79,8 @@ PayRoute.post("/payments", async(req, res) => {
     },
     line_items,
     mode: "payment",
-    success_url: "http://localhost:5174/cart-success",
-    cancel_url: "http://localhost:5174/cart",
+    success_url: "https://esburger.vercel.app/cart-success",
+    cancel_url: "https://esburger.vercel.app/cart",
   });
 
   res.send({ url: session.url });
