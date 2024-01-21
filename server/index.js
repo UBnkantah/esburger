@@ -6,7 +6,7 @@ const app = express()
 const port = 8000
 
 
-app.use(cors({ origin: "https://esburger.vercel.app" }));
+app.use(cors({ origin: "*" }));
 app.use(express.json());
 app.use(express.static("public"));
 
