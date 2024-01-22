@@ -6,7 +6,7 @@ const app = express()
 const port = 8000
 
 
-app.use(cors({ origin: "*" }));
+app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
 
@@ -17,15 +17,15 @@ app.get("/", (req, res) => {
     res.send("welcome")
 })
 
-// app.post("/api", (req, res) => {
-//     console.log(req.body)
-// const body = req.body
+app.post("/api", (req, res) => {
+    console.log(req.body)
+const body = req.body
 
-//     res.json({
-//         status: 'success',
-//         body
-//     })
-// })
+    res.json({
+        status: 'success',
+        body
+    })
+})
 
 app.use("/api/stripe", payRoute);
 

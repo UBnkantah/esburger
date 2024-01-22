@@ -27,7 +27,7 @@ const Herosection = () => {
     console.log(cartItems, "CART Items");
     try {
       const res = await axios.post(
-        "https://esburger-server.vercel.app/api/stripe/payments",
+        "https://eburger-server.vercel.app/api/stripe/payments",
         { cartItems }
       );
       console.log(res.data);
