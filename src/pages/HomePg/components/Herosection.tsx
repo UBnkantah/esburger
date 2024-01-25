@@ -35,11 +35,21 @@ const Herosection = () => {
     <>
     <div className='h-screen bg-primary'>
         <Navbar />
-        <div className='md:w-2/3 w-full flex justify-center items-center'>
-            <img src={floatbur} alt="" className='w-full mx-auto'  />
+        <div className='container '>
+          <div className="flex justify-center items-center">
+     <div className='w-full flex justify-center items-center'>
+      <div>
+        <img src={floatbur} alt="" className='w-full mx-auto z-30'  />
+            <h2 className='text-5xl font-[800] text-center text-second'>Delicious Meal</h2>
+      </div>
+            
+        </div>        
+          </div>
+         
         </div>
+        
     </div>
-    <div className='bg-primary'>
+    <div className='bg-primary pt-24'>
         <div className='container'>
          <div className='grid grid-cols-1 md:grid-cols-3 gap-8 py-12'>
             

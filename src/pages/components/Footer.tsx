@@ -29,7 +29,7 @@ const fmItem = [
 
 const Footer = () => {
   return (
-    <div className="bg-fimg bg-cover bg-center text-white mt-20">
+    <div className="bg-fimg bg-cover bg-center text-white">
         <div className="backdrop-brightness-50 border-l-indigo-900">
 <div className="container">
         <div className="flex justify-center items-center">

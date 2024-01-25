@@ -35,27 +35,27 @@ const Navbar = () => {
           </div>
         </div>
         <ul className="md:flex hidden uppercase items-center gap-8 font-[Poppins]">
-          <li>
+          <li className="font-[600]">
             <Link to="/about" className="py-7 px-3 inline-block">
               About
             </Link>
           </li>
-          <li>
+          <li className="font-[600]">
             <Link to="/service" className="py-7 px-3 inline-block">
                 Service
             </Link>
           </li>
-          <li>
+          <li className="font-[600]">
             <Link to="/contact" className="py-7 px-3 inline-block">
               Contact
             </Link>
           </li>
-          <li>
+          <li className="font-[600]">
             <Link to="/shop" className="py-7 px-3 inline-block">
               Shop
             </Link>
           </li>
-          <li>
+          <li className="font-[600]">
             <Link to="/cart" className="py-7 px-3 inline-block">
               Cart
             </Link>

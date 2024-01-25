@@ -41,11 +41,14 @@ const Herosection = () => {
 
   return (
     <div>
-      <Navbar />
-      <h2 className="text-center py-4 text-3xl font-[600]">Shopping Cart</h2>
+      <div className="bg-center bg-cover bg-heroshop h-[50vh]">
+       <Navbar />
+      <h2 className="text-center py-4 text-3xl font-[600] text-white">Shopping Cart</h2> 
+      </div>
+      
       <div className="container">
         <div>
-          <div>
+          <div className="py-12">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-start items-start py-4">
               <div>
                 <h2 className="text-xl font-[600]">PRODUCT</h2>

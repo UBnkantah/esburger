@@ -3,7 +3,7 @@ import { Navbar } from "../../components"
 
 const Herosection = () => {
   return (
-    <div>
+    <div className="h-[50vh] bg-heroshop bg-center bg-cover ">
         <Navbar />
     </div>
   )

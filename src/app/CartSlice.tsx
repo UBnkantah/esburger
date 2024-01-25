@@ -99,6 +99,9 @@ const cartSlice = createSlice({
                 quantity: 0
             });
 
+            console.log(total, "total")
+            console.log(quantity, "quantity")
+
             state.cartTotalQuantity = quantity;
             state.cartTotalAmount = total
     }
